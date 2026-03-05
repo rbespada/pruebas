@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Personal - [Tu Nombre]</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">Mi Portfolio</div>
+            <ul id="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#curriculum">Currículum</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Bienvenido a mi Portfolio</h1>
+            <p>Soy Roberto Bespada, Desarrollador Web Full Stack. Aquí presento mis trabajos y habilidades.</p>
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150" alt="Foto de perfil" class="profile-img">
+        </section>
+
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <div class="proyectos-grid">
+                <div class="proyecto">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=300" alt="Proyecto 1">
+                    <h3>Portfolio Personal</h3>
+                    <p>Sitio web responsive desarrollado con HTML5, CSS3 y JavaScript para mostrar proyectos y habilidades.</p>
+                </div>
+                <div class="proyecto">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=300" alt="Proyecto 2">
+                    <h3>Aplicación de Tareas</h3>
+                    <p>App web para gestión de tareas usando React y Node.js, con base de datos MongoDB.</p>
+                </div>
+                <div class="proyecto">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=300" alt="Proyecto 3">
+                    <h3>Sitio E-commerce</h3>
+                    <p>Tienda online con carrito de compras, integrada con Stripe para pagos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="curriculum">
+            <h2>Currículum</h2>
+            <h3>Formación</h3>
+            <p>Grado en Ingeniería Informática, Universidad de Sevilla, 2020-2024.</p>
+            <h3>Experiencia Profesional</h3>
+            <p>Desarrollador Web en Tech Solutions, 2024-presente. Desarrollo de aplicaciones web usando HTML, CSS, JS y frameworks como React.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <p>Email: roberto.bespada@example.com</p>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <article>
+                <h3>Interés Personal 1</h3>
+                <p>Contenido del blog.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Roberto Bespada. Todos los derechos reservados.</p>
+    </footer>
+
+    <div id="cookie-popup" class="cookie-popup">
+        <p>Este sitio utiliza cookies para mejorar la experiencia. <button id="accept-cookies">Aceptar</button></p>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
