@@ -20,8 +20,9 @@ https://github.com/rbespada/pruebas
 
 ## Plan de pruebas
 - Visualización en distintos tamaños: Probado en Chrome DevTools con breakpoints 768px y 320px.
-- Funcionamiento de enlaces: Todos los enlaces internos funcionan.
+- Funcionamiento de enlaces: Todos los enlaces internos y a páginas de proyectos funcionan.
 - Formularios: El formulario de contacto muestra alerta (simulado).
 - Navegadores: Probado en Chrome y Firefox.
 - Menú y popup: Menú se abre/cierra en móvil, popup aparece una vez y se guarda en localStorage.
 - Fuentes e imágenes: Fuentes cargan desde sistema, imágenes desde Unsplash.
+- Animaciones: Secciones se animan al hacer scroll.

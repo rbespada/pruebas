@@ -60,6 +60,14 @@ main {
 section {
     padding: 2rem;
     min-height: 100vh;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s, transform 0.6s;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 #inicio {
@@ -80,10 +88,15 @@ section {
     gap: 2rem;
 }
 
-.proyecto img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+.proyecto a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.proyecto a:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
 }
 
 #contact-form {
@@ -105,11 +118,29 @@ button {
     cursor: pointer;
 }
 
-footer {
+#proyecto-detalle {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+#proyecto-detalle img {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+
+#proyecto-detalle a {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
     background: #333;
     color: #fff;
-    text-align: center;
-    padding: 1rem;
+    text-decoration: none;
+}
+
+#proyecto-detalle a:hover {
+    background: #555;
 }
 
 .cookie-popup {
