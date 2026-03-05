@@ -10,13 +10,21 @@ https://github.com/rbespada/pruebas
 ## Enlace al sitio web publicado en un hosting gratuito
 [Después de publicar en GitHub Pages: https://rbespada.github.io/pruebas]
 
+## Tecnologías utilizadas
+- HTML5 para estructura semántica
+- CSS3 con Tailwind CSS (via CDN) para estilos y responsive design
+- JavaScript para interactividad (popup de cookies, animaciones de scroll, menú móvil)
+- Fuentes: Inter y Material Symbols desde Google Fonts (CDN)
+- Imágenes: Unsplash para placeholders
+
 ## Complicaciones encontradas y soluciones aplicadas
-1. Problema con la descarga de fonts: Las URLs iniciales no funcionaron y el directorio fonts causó errores. Solución: Usé fonts del sistema (Segoe UI y Times New Roman) que son libres y cumplen el requisito.
+1. Problema con la descarga de fonts: Las URLs iniciales no funcionaron y el directorio fonts causó errores en el filesystem. Solución: Cambié a fuentes desde Google Fonts via CDN, que son libres y cumplen el requisito.
 2. Implementación del menú responsive: Inicialmente, el menú no se ocultaba correctamente en móvil. Solución: Agregué clases CSS y JS para toggle.
+3. Integración de diseños modernos: Los diseños iniciales eran básicos. Solución: Actualicé a Tailwind CSS con diseños inspirados en Stitch, incluyendo dark mode y animaciones.
 
 ## Tipografías utilizadas
-- Segoe UI (sans-serif, del sistema)
-- Times New Roman (serif, del sistema)
+- Inter (sans-serif, desde Google Fonts)
+- Material Symbols Outlined (iconos, desde Google Fonts)
 
 ## Plan de pruebas
 - Visualización en distintos tamaños: Probado en Chrome DevTools con breakpoints 768px y 320px.
@@ -24,5 +32,6 @@ https://github.com/rbespada/pruebas
 - Formularios: El formulario de contacto muestra alerta (simulado).
 - Navegadores: Probado en Chrome y Firefox.
 - Menú y popup: Menú se abre/cierra en móvil, popup aparece una vez y se guarda en localStorage.
-- Fuentes e imágenes: Fuentes cargan desde sistema, imágenes desde Unsplash.
+- Fuentes e imágenes: Fuentes cargan desde CDN, imágenes desde Unsplash.
 - Animaciones: Secciones se animan al hacer scroll.
+- Páginas de proyectos: Detalles actualizados con diseños modernos y navegación inferior.
