@@ -1,0 +1,15 @@
+[build]
+  command = "npm install && npm run build"
+  functions = "functions"
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[dev]
+  targetPort = 3000
+
+[context.production]
+  environment = { NODE_ENV = "production" }

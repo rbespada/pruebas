@@ -1,4 +1,4 @@
-# Memoria de la Práctica 1: Portfolio Web Personal
+npm installnpm startnpm startnpm installbash git-commit.shnpm install# Memoria de la Práctica 1: Portfolio Web Personal
 
 ## Capturas del diseño en Figma
 - Boceto para versión escritorio: Diseño con header fijo, secciones en columna, grid para proyectos.
@@ -8,7 +8,11 @@
 https://github.com/rbespada/pruebas
 
 ## Enlace al sitio web publicado en un hosting gratuito
-[Después de publicar en GitHub Pages: https://rbespada.github.io/pruebas]
+- **GitHub:** https://github.com/rbespada/pruebas
+- **Vercel (Recomendado):** Se configura en vercel.com con tu GitHub
+- **Netlify:** Se configura en netlify.com con tu GitHub
+- **GitHub Pages:** https://rbespada.github.io/pruebas (solo sitios estáticos)
+- **Ver DESPLIEGUE.md** para instrucciones detalladas
 
 ## Tecnologías utilizadas
 - HTML5 para estructura semántica
@@ -16,6 +20,7 @@ https://github.com/rbespada/pruebas
 - JavaScript para interactividad (popup de cookies, animaciones de scroll, menú móvil)
 - Fuentes: Inter y Material Symbols desde Google Fonts (CDN)
 - Imágenes: Unsplash para placeholders
+- **Backend:** Node.js + Express.js + compression middleware
 
 ## Complicaciones encontradas y soluciones aplicadas
 1. Problema con la descarga de fonts: Las URLs iniciales no funcionaron y el directorio fonts causó errores en el filesystem. Solución: Cambié a fuentes desde Google Fonts via CDN, que son libres y cumplen el requisito.
